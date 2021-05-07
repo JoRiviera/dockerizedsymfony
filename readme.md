@@ -41,7 +41,7 @@ You can run the commands in the php container at `/var/www/symfony/app/`
 ### Database URL
 
 In your Symfony `.env` file, set your database url:
-`DATABASE_URL="mysql://root:root@mysql:3306/{DBNAME}?serverVersion=8.0.24'"`
+`DATABASE_URL="mysql://root:{root password}@{mysql service name}:{mysql docker host port}/{DBNAME}?serverVersion={mysql version}'"`
 
 ### Adminer
 
