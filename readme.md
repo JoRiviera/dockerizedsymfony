@@ -18,6 +18,16 @@ You can change this setup in Nginx `default.conf`:
 
 ## Getting started
 
+### Build
+
+Run `docker-compose build` in the `.docker` folder to create the containers.
+
+### Run
+
+Run `docker-compose up` (optionnal flag `-d` for running in the background) to start the app.
+
+### Intalling Symfony template app
+
 In the Php container, in the working directory (`/var/www/symfony`), run :
 `> composer create-project symfony/website-skeleton app`
 This will set the `app` folder for your Symfony application development, ready for you to code!
