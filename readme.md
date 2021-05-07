@@ -38,6 +38,11 @@ You can run the commands in the php container at `/var/www/symfony/app/`
 
 ## More details
 
+### Database URL
+
+In your Symfony `.env` file, set your database url:
+`DATABASE_URL="mysql://root:root@mysql:3306/enisymfony?serverVersion=8.0.24'"`
+
 ### Adminer
 
 Accessible under `localhost:1234`
